@@ -62,7 +62,7 @@ int V(int semid,int who)
     return commPV(semid,who,1);
 }
 
-int destorySemSet(int semid)
+int destorySemSet(int semid)       //
 {
     if(semctl(semid,0,IPC_RMID)<0)
     {
