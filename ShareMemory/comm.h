@@ -8,8 +8,8 @@
 #include<sys/ipc.h>
 #include<sys/shm.h>
 
-#define PATHNAME "."     //代表当前目录
-#define PROJ_ID 0x6666    //权限
+#define PATHNAME "."     //琛ㄧず褰撳墠璺緞
+#define PROJ_ID 0x6666    //
 
 int createShm(int size);
 int destoryShm(int shmid);
